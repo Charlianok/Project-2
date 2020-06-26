@@ -1,0 +1,173 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 14px;
+}
+
+.top-link {
+    border-left: 2px solid #abbbca;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.top-link:nth-child(1) {
+    border-left: none;
+}
+
+.top-link:hover {
+    text-decoration: none;
+}
+
+/* header navigation */
+
+.header-nav {
+    background-color: #abbbca;
+    margin-top: 10px;
+    height: 210px;
+    padding-top: 5px;
+}
+
+.top-nav {
+    padding-left: 350px;
+    background: linear-gradient(white, #bec2e5);
+    padding: 10px 0;
+    margin-top: -2px;
+    padding-left: 350px;    
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background: linear-gradient(#bddde8, #3c84aa);
+    color: white;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main-aside */
+
+.aside-heading {
+    background-color: #7371b2;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.aside-nav {
+    flex: 1;
+    background-color: #e7e6ee;
+    
+}
+
+.aside-list {
+    list-style: outside url(img/marker.png);
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.list-item {
+    padding: 10px 10px;
+}
+
+.list-link:hover {
+    text-decoration: none;
+}
+
+/* main-content */
+
+.content {
+    flex: 4;
+    margin-left: 50px;
+}
+
+.main-nav-top {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.main-link-top {
+    margin-right: 20px;
+}
+
+.main-link-top:hover {
+    text-decoration: none;
+}
+
+.main-heading1 {
+    font-size: 30px;
+    color: #2e5b7c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.information {
+    border-top: 2px solid #e7e6ee;
+    border-bottom: 2px solid #e7e6ee;
+}
+
+.information1 {
+    margin-bottom: 50px;
+}
+
+.main-heading2 {
+    margin-top: 30px;
+    color: #7c7996;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.img-photo {
+    float: left;
+    margin-right: 30px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.information2 {
+    margin-bottom: 100px;
+}
+
+.main-nav-bottom {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.main-link-bottom {
+    border-right: 2px solid #abbbca;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.main-link-bottom:nth-child(5) {
+    border-right: none;
+}
+
+.main-link-bottom:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #7371b2;
+    color: white;
+    padding: 30px;
+}
