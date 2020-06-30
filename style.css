@@ -73,12 +73,9 @@ header {
 .aside-nav {
     flex: 1;
     background-color: #e7e6ee;
-    
 }
 
 .aside-list {
-    list-style: outside url(img/marker.png);
-    padding-left: 40px;
     margin-top: 10px;
 }
 
@@ -86,8 +83,14 @@ header {
     padding: 10px 10px;
 }
 
+.list-link {
+    background: url(img/marker.png) no-repeat left;
+    padding-left: 40px;
+}
+
 .list-link:hover {
     text-decoration: none;
+    background: url(img/markerlight.png) no-repeat left;
 }
 
 /* main-content */
@@ -100,10 +103,17 @@ header {
 .main-nav-top {
     margin-top: 15px;
     font-size: 14px;
+    color: #273a49;
 }
 
-.main-link-top {
-    margin-right: 20px;
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li:before {
+    content: ">";
+    padding: 10px;
+    color: #1297c0;
 }
 
 .main-link-top:hover {
@@ -165,6 +175,8 @@ header {
 .main-link-bottom:hover {
     text-decoration: none;
 }
+
+/* footer */
 
 footer {
     background-color: #7371b2;
